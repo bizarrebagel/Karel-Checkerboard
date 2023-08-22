@@ -1,0 +1,40 @@
+function main(){
+putBeeper();
+alternateBeeper();
+alternateBeeper();
+CornerLeft();
+putBeeper();
+alternateBeeper();
+CornerRight();
+putBeeper();
+turnRight();
+alternateBeeper();
+alternateBeeper();
+CornerLeft();
+putBeeper();
+alternateBeeper();
+CornerRight();
+putBeeper();
+turnRight();
+alternateBeeper();
+alternateBeeper();
+}
+
+function alternateBeeper(){
+move();
+move();
+putBeeper();
+}
+
+function CornerLeft(){
+turnLeft();
+move();
+turnLeft();
+move();
+}
+
+function CornerRight(){
+move();
+turnRight();
+move();
+}
